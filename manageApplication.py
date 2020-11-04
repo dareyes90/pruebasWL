@@ -27,7 +27,7 @@ def connectToDomain():
 
 	except:
 		print 'The domain is unreacheable. Please try again\n'
-		exit()
+		exit 1
 #========================
 #Checking Application Status Section
 #========================
