@@ -66,8 +66,8 @@ def deployApplication():
 		startApplication(deploymentName)
 	except:
 		print 'Error during the deployment of ' +deploymentName+ '\n'
-		return -1
-#		exit()
+#		return 1
+		exit(1)
 #========================
 #Input Values Validation Section
 #========================
